@@ -120,3 +120,31 @@ body {
     font-size: 16px;
     line-height: 1.18px;
 }
+
+.footer {
+    background-color: #2F303A;
+}
+
+.header-logo-text-2-footer {
+    color: #FFFFFF
+}
+
+.footer-item .footer-link {
+    text-decoration: none;
+    text-transform: none;
+}
+
+.adress {
+    font-style: unset;
+}
+
+.footer-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.adress-link {
+    color: #FFFFFF;
+}
