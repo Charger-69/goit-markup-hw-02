@@ -17,6 +17,10 @@ body {
     line-height: 1.19;
 }
 
+.btn {
+    cursor: pointer;
+}
+
 .list {
     list-style: none;
 }
@@ -152,3 +156,35 @@ body {
 
 /* Portfolio Page */
 
+.filters-btn {
+    background: #F5F4FA;
+    width: 145px;
+    height: 38px;
+    border-radius: 4px;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+.projects-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects-subtitle {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.8;
+}
