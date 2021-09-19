@@ -29,6 +29,13 @@ body {
     color: var(--accent-color);
 }
 
+.section-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
 .header-logo-text-1 {
     color: var(--accent-color) ;
 
@@ -80,4 +87,23 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+}
+
+.features-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+}
+
+.features-subtitle {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.team {
+    background-color: #F5F4FA;
 }
