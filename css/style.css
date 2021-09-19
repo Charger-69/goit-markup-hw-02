@@ -107,3 +107,16 @@ body {
 .team {
     background-color: #F5F4FA;
 }
+
+.team-title {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.team-subtitle {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.18px;
+}
